@@ -1,18 +1,21 @@
 import '../styles/cards.css'
+import Recipes from '../recipes.json'
 
 function Cards() {
 
   return (
     <main>
-      <div className="card">
-        <div className="favorite">
-          <p>♡</p>
+      {Recipes && Recipes.map( recipe => (
+        <div key={recipe.id} className="card">
+          <div className="favorite">
+            <p>♡</p>
+          </div>
+          <div className="info">
+            <p className="category">{recipe.category}</p>
+            <p className="name">{recipe.name}</p>
+          </div>
         </div>
-        <div className="info">
-          <p className="category">category</p>
-          <p className="name">name</p>
-        </div>
-      </div>
+      ))}
     </main>
   )
 }
