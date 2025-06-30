@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "category": "Appetizer",
+    "name": "Hummus",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 300,
+      "ingredients": ["chickpeas", "lemon", "garlic", "olive oil", "tahini"],
+      "directions": "Drain and rinse the chickpeas. In a blender or food processor, combine chickpeas, tahini, minced garlic, lemon juice, and olive oil. Blend until smooth and creamy. Add water or olive oil to adjust consistency if needed. Serve chilled or at room temperature with a drizzle of olive oil on top."
+    }
+  },
+  {
+    "id": 2,
+    "category": "Main Course",
+    "name": "Chicken Shawarma",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 550,
+      "ingredients": ["chicken", "onion", "spices", "yogurt", "garlic"],
+      "directions": "Mix yogurt, minced garlic, sliced onions, and your choice of shawarma spices in a bowl. Add chicken pieces and coat well with the marinade. Cover and refrigerate for at least 30 minutes. Grill or pan-fry the chicken over medium heat until fully cooked and slightly charred. Serve with pita bread and fresh vegetables."
+    }
+  },
+  {
+    "id": 3,
+    "category": "Dessert",
+    "name": "Baklava",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 500,
+      "ingredients": ["nuts", "flour", "butter", "sugar", "honey"],
+      "directions": "Preheat oven to 350°F (175°C). Butter a baking dish and layer sheets of phyllo dough, brushing each sheet with melted butter. Sprinkle chopped nuts evenly between layers. Continue layering and buttering phyllo until all nuts and dough are used. Cut baklava into diamond shapes before baking. Bake for about 45 minutes until golden and crisp. After baking, pour warm honey syrup over the baklava and let it soak before serving."
+    }
+  },
+  {
+    "id": 4,
+    "category": "Soup",
+    "name": "Lentil Soup",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 350,
+      "ingredients": ["lentils", "carrots", "onion", "garlic", "spices"],
+      "directions": "Rinse lentils well. In a large pot, sauté chopped onions and minced garlic in olive oil until soft. Add diced carrots and spices, then stir for a few minutes. Add lentils and enough water or broth to cover. Bring to a boil, then reduce heat and simmer for 20-25 minutes until lentils are tender. Season to taste and serve hot."
+    }
+  },
+  {
+    "id": 5,
+    "category": "Salad",
+    "name": "Tabbouleh",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 250,
+      "ingredients": ["parsley", "mint", "tomato", "lemon", "olive oil"],
+      "directions": "Finely chop fresh parsley, mint leaves, and tomatoes. In a large bowl, combine the chopped herbs and tomatoes with soaked and drained bulgur (optional). Add freshly squeezed lemon juice and olive oil. Toss everything together, season with salt and pepper to taste. Chill for 10 minutes before serving."
+    }
+  },
+  {
+    "id": 6,
+    "category": "Breakfast",
+    "name": "Shakshuka",
+    "details": {
+      "prepTimeMinutes": 25,
+      "calories": 420,
+      "ingredients": ["eggs", "tomato", "onion", "olive oil", "spices"],
+      "directions": "Heat olive oil in a skillet, sauté chopped onions until soft. Add diced tomatoes and spices, cook until sauce thickens. Crack eggs into the sauce, cover skillet and cook until eggs are set but yolks are runny. Serve hot with bread."
+    }
+  },
+  {
+    "id": 7,
+    "category": "Main Course",
+    "name": "Beef Kofta",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 650,
+      "ingredients": ["ground beef", "onion", "spices", "parsley", "garlic"],
+      "directions": "Combine ground beef with finely chopped onions, minced garlic, parsley, and spices. Shape mixture into small meatballs or logs. Grill or pan-fry on medium heat until cooked through and browned on all sides. Serve with rice or bread."
+    }
+  },
+  {
+    "id": 8,
+    "category": "Snack",
+    "name": "Sambousek",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 350,
+      "ingredients": ["flour", "ground beef", "onion", "spices", "oil"],
+      "directions": "Prepare dough and roll out into small circles. Cook ground beef with chopped onions and spices. Fill dough circles with beef mixture, fold, and seal edges. Deep fry in hot oil until golden brown. Drain excess oil and serve warm."
+    }
+  },
+  {
+    "id": 9,
+    "category": "Dessert",
+    "name": "Qatayef",
+    "details": {
+      "prepTimeMinutes": 35,
+      "calories": 400,
+      "ingredients": ["flour", "yeast", "nuts", "sugar", "rose water"],
+      "directions": "Prepare pancake-like batter with flour and yeast. Cook small rounds on one side only. Fill with nuts and sugar mixture. Fold and seal edges. Fry in oil until golden. Drizzle with rose water syrup before serving."
+    }
+  },
+  {
+    "id": 10,
+    "category": "Main Course",
+    "name": "Kabsa",
+    "details": {
+      "prepTimeMinutes": 55,
+      "calories": 700,
+      "ingredients": ["chicken", "rice", "spices", "tomato", "onion"],
+      "directions": "Sauté onions and spices in oil. Add chicken pieces and brown. Add tomatoes and cook for 10 minutes. Add rice and water, cover and simmer until rice is cooked and chicken is tender. Fluff rice before serving."
+    }
+  },
+  {
+    "id": 11,
+    "category": "Soup",
+    "name": "Chicken Soup",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 320,
+      "ingredients": ["chicken", "carrots", "celery", "onion", "noodles"],
+      "directions": "Boil chicken with vegetables until cooked. Remove chicken, shred meat and return to pot. Add noodles and cook until tender. Season to taste and serve hot."
+    }
+  },
+  {
+    "id": 12,
+    "category": "Breakfast",
+    "name": "Foul Medames",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 400,
+      "ingredients": ["fava beans", "lemon", "olive oil", "garlic", "spices"],
+      "directions": "Cook fava beans until soft. Mash slightly and mix with lemon juice, minced garlic, olive oil, and spices. Serve warm with bread."
+    }
+  },
+  {
+    "id": 13,
+    "category": "Salad",
+    "name": "Fattoush",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 280,
+      "ingredients": ["lettuce", "cucumber", "tomato", "lemon", "olive oil", "mint"],
+      "directions": "Chop lettuce, cucumber, and tomato. Toss with chopped mint, lemon juice, and olive oil. Add toasted pita pieces on top and serve fresh."
+    }
+  },
+  {
+    "id": 14,
+    "category": "Snack",
+    "name": "Falafel",
+    "details": {
+      "prepTimeMinutes": 25,
+      "calories": 350,
+      "ingredients": ["chickpeas", "onion", "garlic", "parsley", "spices"],
+      "directions": "Soak chickpeas overnight and drain. Blend with onion, garlic, parsley, and spices until coarse paste forms. Shape into balls and deep fry until crispy and golden. Serve with tahini sauce."
+    }
+  },
+  {
+    "id": 15,
+    "category": "Main Course",
+    "name": "Mansaf",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 750,
+      "ingredients": ["lamb", "rice", "yogurt", "spices", "onion"],
+      "directions": "Cook lamb with spices and onions until tender. Prepare rice separately. Mix cooked lamb broth with yogurt sauce. Layer rice on a large platter, top with lamb, and pour yogurt sauce over. Serve warm."
+    }
+  },
+  {
+    "id": 16,
+    "category": "Dessert",
+    "name": "Rice Pudding",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 320,
+      "ingredients": ["rice", "milk", "sugar", "nuts", "cardamom"],
+      "directions": "Cook rice in milk with sugar and cardamom over low heat, stirring frequently until creamy. Garnish with chopped nuts and chill before serving."
+    }
+  },
+  {
+    "id": 17,
+    "category": "Appetizer",
+    "name": "Stuffed Grape Leaves",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 280,
+      "ingredients": ["grape leaves", "rice", "onion", "tomato", "spices"],
+      "directions": "Rinse grape leaves and blanch if fresh. Mix rice with chopped onion, tomato, and spices. Roll small amounts into grape leaves tightly. Arrange in pot, add water and lemon juice, and simmer until rice is cooked."
+    }
+  },
+  {
+    "id": 18,
+    "category": "Soup",
+    "name": "Tomato Soup",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 220,
+      "ingredients": ["tomato", "onion", "garlic", "butter", "cream"],
+      "directions": "Sauté onions and garlic in butter until soft. Add chopped tomatoes and cook until softened. Blend soup until smooth, return to pot and stir in cream. Heat gently and serve."
+    }
+  },
+  {
+    "id": 19,
+    "category": "Main Course",
+    "name": "Chicken Mandi",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 670,
+      "ingredients": ["chicken", "rice", "spices", "yogurt", "onion"],
+      "directions": "Marinate chicken with spices and yogurt. Cook rice with onions and spices separately. Grill chicken until cooked and place over rice. Serve warm."
+    }
+  },
+  {
+    "id": 20,
+    "category": "Snack",
+    "name": "Date Balls",
+    "details": {
+      "prepTimeMinutes": 25,
+      "calories": 200,
+      "ingredients": ["dates", "nuts", "coconut flakes"],
+      "directions": "Blend dates and nuts into a sticky mixture. Roll into small balls and coat with coconut flakes. Chill before serving."
+    }
+  },
+  {
+    "id": 21,
+    "category": "Dessert",
+    "name": "Kunafa",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 600,
+      "ingredients": ["kataifi dough", "cheese", "sugar syrup", "butter"],
+      "directions": "Butter a baking dish and spread half the kataifi dough. Layer with cheese and cover with remaining dough. Bake until golden. Pour sugar syrup over warm kunafa and serve."
+    }
+  },
+  {
+    "id": 22,
+    "category": "Breakfast",
+    "name": "Labneh with Olive Oil",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 150,
+      "ingredients": ["labneh", "olive oil", "za'atar", "pita bread"],
+      "directions": "Spread labneh on a plate, drizzle with olive oil and sprinkle za'atar on top. Serve with warm pita bread."
+    }
+  },
+  {
+    "id": 23,
+    "category": "Salad",
+    "name": "Cucumber Yogurt Salad",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 120,
+      "ingredients": ["cucumber", "yogurt", "garlic", "mint", "lemon juice"],
+      "directions": "Grate cucumber and squeeze out excess water. Mix with yogurt, minced garlic, chopped mint, and lemon juice. Chill before serving."
+    }
+  },
+  {
+    "id": 24,
+    "category": "Main Course",
+    "name": "Fish Sayadiyah",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 580,
+      "ingredients": ["fish", "rice", "onion", "spices", "tomato"],
+      "directions": "Cook sliced onions until caramelized. Add spices and tomatoes, then layer fish fillets on top. Cover with rice and cook until rice is tender and fish is done."
+    }
+  },
+  {
+    "id": 25,
+    "category": "Snack",
+    "name": "Falafel Wrap",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 400,
+      "ingredients": ["falafel", "pita bread", "lettuce", "tomato", "tahini sauce"],
+      "directions": "Prepare falafel as usual. Warm pita bread, place falafel inside along with lettuce, tomato slices, and drizzle tahini sauce. Roll and serve."
+    }
+  },
+  {
+    "id": 26,
+    "category": "Dessert",
+    "name": "Basbousa",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 450,
+      "ingredients": ["semolina", "sugar", "yogurt", "butter", "coconut"],
+      "directions": "Mix semolina, sugar, yogurt, butter, and coconut until well combined. Pour into a greased pan, score into squares, and bake until golden. Pour sugar syrup over hot basbousa and cool before serving."
+    }
+  },
+  {
+    "id": 27,
+    "category": "Appetizer",
+    "name": "Moutabal",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 250,
+      "ingredients": ["eggplant", "tahini", "lemon", "garlic", "olive oil"],
+      "directions": "Roast eggplant until soft, peel and mash the flesh. Mix with tahini, lemon juice, minced garlic, and olive oil. Serve chilled with pita bread."
+    }
+  },
+  {
+    "id": 28,
+    "category": "Main Course",
+    "name": "Lamb Tagine",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 700,
+      "ingredients": ["lamb", "onion", "spices", "dried fruits", "nuts"],
+      "directions": "Brown lamb pieces with onions and spices in a tagine or pot. Add dried fruits and nuts, cover and cook slowly until lamb is tender and sauce is thickened. Serve with couscous."
+    }
+  },
+  {
+    "id": 29,
+    "category": "Soup",
+    "name": "Harira",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 400,
+      "ingredients": ["lentils", "chickpeas", "tomato", "meat", "spices"],
+      "directions": "Cook lentils and chickpeas with diced meat and spices. Add tomatoes and herbs, simmer until all ingredients are tender and flavors meld. Serve hot."
+    }
+  },
+  {
+    "id": 30,
+    "category": "Salad",
+    "name": "Olive and Tomato Salad",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 200,
+      "ingredients": ["olives", "tomato", "cucumber", "lemon", "olive oil"],
+      "directions": "Chop olives, tomatoes, and cucumber. Toss with lemon juice and olive oil. Serve fresh."
+    }
+  },
+  {
+    "id": 31,
+    "category": "Breakfast",
+    "name": "Cheese and Spinach Fatayer",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 400,
+      "ingredients": ["flour", "spinach", "cheese", "olive oil", "onion"],
+      "directions": "Prepare dough and let it rise. Sauté spinach with chopped onions and olive oil until soft. Mix with crumbled cheese. Roll dough into small circles, place filling in center, and fold into triangles. Bake in preheated oven at 375°F (190°C) for 20 minutes or until golden brown."
+    }
+  },
+  {
+    "id": 32,
+    "category": "Main Course",
+    "name": "Beef Biryani",
+    "details": {
+      "prepTimeMinutes": 70,
+      "calories": 750,
+      "ingredients": ["beef", "basmati rice", "yogurt", "spices", "onion"],
+      "directions": "Marinate beef with yogurt and spices for at least 30 minutes. Fry sliced onions until golden. Layer marinated beef and partially cooked rice in a pot. Cover and cook on low heat for 30-40 minutes until beef is tender and rice is fully cooked. Serve hot with raita."
+    }
+  },
+  {
+    "id": 33,
+    "category": "Dessert",
+    "name": "Halva",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 450,
+      "ingredients": ["semolina", "sugar", "butter", "nuts", "rose water"],
+      "directions": "Melt butter in a pan, add semolina and toast until golden. Slowly add sugar syrup and stir continuously to avoid lumps. Add nuts and rose water, cook until mixture thickens. Pour into a dish and let cool before slicing."
+    }
+  },
+  {
+    "id": 34,
+    "category": "Soup",
+    "name": "Chickpea Soup",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 350,
+      "ingredients": ["chickpeas", "carrots", "onion", "garlic", "spices"],
+      "directions": "Soak chickpeas overnight. Sauté onions, garlic, and carrots in olive oil. Add chickpeas and water, simmer until chickpeas are tender. Blend partially for a creamy texture or leave chunky. Season to taste and serve hot."
+    }
+  },
+  {
+    "id": 35,
+    "category": "Salad",
+    "name": "Carrot and Raisin Salad",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 180,
+      "ingredients": ["carrots", "raisins", "lemon juice", "olive oil", "mint"],
+      "directions": "Grate carrots and mix with raisins. Add lemon juice, olive oil, and chopped fresh mint. Toss well and chill before serving."
+    }
+  },
+  {
+    "id": 36,
+    "category": "Snack",
+    "name": "Stuffed Dates",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 250,
+      "ingredients": ["dates", "almonds", "cream cheese", "honey"],
+      "directions": "Pit dates carefully and stuff with a small amount of cream cheese and an almond. Drizzle with honey and serve as a sweet snack."
+    }
+  },
+  {
+    "id": 37,
+    "category": "Main Course",
+    "name": "Grilled Lamb Chops",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 700,
+      "ingredients": ["lamb chops", "garlic", "rosemary", "olive oil", "lemon"],
+      "directions": "Marinate lamb chops with minced garlic, rosemary, olive oil, and lemon juice for at least 30 minutes. Grill over medium-high heat for 4-5 minutes each side or until desired doneness. Rest for 5 minutes before serving."
+    }
+  },
+  {
+    "id": 38,
+    "category": "Dessert",
+    "name": "Rice Kheer",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 350,
+      "ingredients": ["rice", "milk", "sugar", "cardamom", "nuts"],
+      "directions": "Rinse rice and cook it in milk with sugar and crushed cardamom over low heat, stirring regularly until creamy. Garnish with chopped nuts and serve warm or chilled."
+    }
+  },
+  {
+    "id": 39,
+    "category": "Appetizer",
+    "name": "Labneh Rolls",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 200,
+      "ingredients": ["labneh", "olive oil", "za'atar", "pita bread", "mint"],
+      "directions": "Spread labneh onto pita bread slices. Sprinkle with za'atar and drizzle olive oil. Roll tightly and garnish with fresh mint leaves. Serve chilled."
+    }
+  },
+  {
+    "id": 40,
+    "category": "Soup",
+    "name": "Vegetable Soup",
+    "details": {
+      "prepTimeMinutes": 35,
+      "calories": 250,
+      "ingredients": ["carrots", "celery", "potatoes", "onion", "vegetable broth"],
+      "directions": "Sauté chopped onions, carrots, and celery until tender. Add diced potatoes and vegetable broth. Simmer until potatoes are soft. Season with salt and pepper. Blend partially for texture or serve chunky."
+    }
+  },
+  {
+    "id": 41,
+    "category": "Main Course",
+    "name": "Fish Tagine",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 600,
+      "ingredients": ["white fish", "tomatoes", "onion", "spices", "preserved lemon"],
+      "directions": "In a tagine or heavy pot, sauté onions and spices. Add tomatoes and preserved lemon, cook for 10 minutes. Add fish fillets, cover and simmer gently until fish is cooked through. Serve with couscous."
+    }
+  },
+  {
+    "id": 42,
+    "category": "Snack",
+    "name": "Roasted Chickpeas",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 300,
+      "ingredients": ["chickpeas", "olive oil", "spices", "salt"],
+      "directions": "Drain and dry chickpeas. Toss with olive oil, spices, and salt. Roast in oven at 400°F (200°C) for 30-35 minutes until crispy, shaking the pan occasionally. Cool before serving."
+    }
+  },
+  {
+    "id": 43,
+    "category": "Dessert",
+    "name": "Om Ali",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 450,
+      "ingredients": ["puff pastry", "milk", "sugar", "nuts", "raisins"],
+      "directions": "Break puff pastry into pieces and layer in a baking dish with nuts and raisins. Heat milk with sugar and pour over the mixture. Bake at 350°F (175°C) until golden and bubbly. Serve warm."
+    }
+  },
+  {
+    "id": 44,
+    "category": "Breakfast",
+    "name": "Manakish Zaatar",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 350,
+      "ingredients": ["flour", "za'atar", "olive oil", "yeast", "water"],
+      "directions": "Prepare dough and let it rise. Roll out into flat rounds. Spread mixture of za'atar and olive oil over dough. Bake in a hot oven at 450°F (230°C) for 8-10 minutes until crust is crisp and golden. Serve warm."
+    }
+  },
+  {
+    "id": 45,
+    "category": "Salad",
+    "name": "Chickpea Salad",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 320,
+      "ingredients": ["chickpeas", "tomato", "cucumber", "onion", "lemon", "olive oil"],
+      "directions": "Drain and rinse chickpeas. Chop tomatoes, cucumber, and onions. Toss all ingredients with lemon juice and olive oil. Season with salt and pepper and serve chilled."
+    }
+  },
+  {
+    "id": 46,
+    "category": "Main Course",
+    "name": "Stuffed Bell Peppers",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 550,
+      "ingredients": ["bell peppers", "rice", "ground beef", "onion", "tomato sauce"],
+      "directions": "Sauté ground beef with onions until browned. Mix in cooked rice and tomato sauce. Cut tops off bell peppers and remove seeds. Stuff peppers with the mixture. Place in baking dish, cover with foil, and bake at 375°F (190°C) for 45 minutes."
+    }
+  },
+  {
+    "id": 47,
+    "category": "Snack",
+    "name": "Za'atar Chips",
+    "details": {
+      "prepTimeMinutes": 25,
+      "calories": 280,
+      "ingredients": ["pita bread", "olive oil", "za'atar", "salt"],
+      "directions": "Cut pita bread into triangles. Brush with olive oil and sprinkle with za'atar and salt. Bake at 375°F (190°C) for 10-15 minutes or until crisp. Cool and serve."
+    }
+  },
+  {
+    "id": 48,
+    "category": "Dessert",
+    "name": "Dates with Tahini",
+    "details": {
+      "prepTimeMinutes": 5,
+      "calories": 200,
+      "ingredients": ["dates", "tahini"],
+      "directions": "Slice dates open and remove pits. Fill with a small spoonful of tahini. Serve immediately as a simple, sweet snack."
+    }
+  },
+  {
+    "id": 49,
+    "category": "Appetizer",
+    "name": "Muhammara",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 300,
+      "ingredients": ["roasted red peppers", "walnuts", "breadcrumbs", "garlic", "olive oil", "pomegranate molasses"],
+      "directions": "Blend roasted red peppers, walnuts, breadcrumbs, minced garlic, olive oil, and pomegranate molasses until smooth. Adjust seasoning with salt and lemon juice. Serve with pita or fresh vegetables."
+    }
+  },
+  {
+    "id": 50,
+    "category": "Soup",
+    "name": "Mushroom Soup",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 280,
+      "ingredients": ["mushrooms", "onion", "garlic", "cream", "butter"],
+      "directions": "Sauté chopped mushrooms, onions, and garlic in butter until soft. Add cream and simmer for 10 minutes. Blend soup until smooth or leave chunky as preferred. Heat gently and serve."
+    }
+  },
+  {
+    "id": 51,
+    "category": "Main Course",
+    "name": "Chicken Shawarma",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 650,
+      "ingredients": ["chicken thighs", "yogurt", "spices", "garlic", "lemon"],
+      "directions": "Marinate chicken thighs in yogurt, garlic, lemon juice, and spices for at least 1 hour. Grill or bake at 400°F (200°C) until cooked through and slightly charred. Slice thinly and serve with pita and garlic sauce."
+    }
+  },
+  {
+    "id": 52,
+    "category": "Salad",
+    "name": "Tabbouleh",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 220,
+      "ingredients": ["parsley", "bulgur", "tomatoes", "mint", "lemon juice", "olive oil"],
+      "directions": "Soak bulgur in water until soft. Chop parsley, tomatoes, and mint finely. Mix all ingredients with lemon juice and olive oil. Season with salt. Chill before serving."
+    }
+  },
+  {
+    "id": 53,
+    "category": "Snack",
+    "name": "Stuffed Grape Leaves",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 350,
+      "ingredients": ["grape leaves", "rice", "onion", "tomato", "herbs"],
+      "directions": "Rinse grape leaves. Prepare stuffing by mixing rice with sautéed onions, tomatoes, and herbs. Roll small amounts of stuffing inside each grape leaf. Arrange in a pot, cover with water and lemon slices, and simmer for about 45 minutes until rice is cooked."
+    }
+  },
+  {
+    "id": 54,
+    "category": "Dessert",
+    "name": "Qatayef",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 500,
+      "ingredients": ["flour", "yeast", "water", "cheese", "sugar syrup"],
+      "directions": "Prepare batter with flour, yeast, and water and cook small pancakes on one side only. Fill with cheese, fold and seal edges. Fry until golden. Dip in sugar syrup and serve warm."
+    }
+  },
+  {
+    "id": 55,
+    "category": "Appetizer",
+    "name": "Fattoush",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 200,
+      "ingredients": ["lettuce", "tomatoes", "cucumber", "radish", "pita chips", "sumac", "lemon juice", "olive oil"],
+      "directions": "Chop all vegetables and toss with toasted pita chips. Dress with a mix of lemon juice, olive oil, and sumac. Toss well and serve fresh."
+    }
+  },
+  {
+    "id": 56,
+    "category": "Main Course",
+    "name": "Mansaf",
+    "details": {
+      "prepTimeMinutes": 120,
+      "calories": 850,
+      "ingredients": ["lamb", "rice", "jameed (dried yogurt)", "almonds", "pine nuts"],
+      "directions": "Cook lamb with spices until tender. Prepare rice separately. Soak and blend jameed into a sauce, then heat. Arrange rice on a large platter, place lamb on top, and pour jameed sauce over. Garnish with fried almonds and pine nuts."
+    }
+  },
+  {
+    "id": 57,
+    "category": "Snack",
+    "name": "Hummus",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 300,
+      "ingredients": ["chickpeas", "tahini", "lemon juice", "garlic", "olive oil"],
+      "directions": "Blend chickpeas, tahini, lemon juice, and garlic until smooth. Add water to adjust consistency. Drizzle olive oil on top and serve with pita bread."
+    }
+  },
+  {
+    "id": 58,
+    "category": "Dessert",
+    "name": "Qamar Al-Din Drink",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 150,
+      "ingredients": ["apricot paste", "water", "sugar", "rose water"],
+      "directions": "Dissolve apricot paste in warm water with sugar and rose water. Stir well and chill before serving."
+    }
+  },
+  {
+    "id": 59,
+    "category": "Breakfast",
+    "name": "Ful Medames",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 350,
+      "ingredients": ["fava beans", "garlic", "lemon juice", "olive oil", "cumin"],
+      "directions": "Soak and cook fava beans until soft. Mash slightly and mix with minced garlic, lemon juice, olive oil, and cumin. Serve warm with pita."
+    }
+  },
+  {
+    "id": 60,
+    "category": "Salad",
+    "name": "Arabic Salad",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 180,
+      "ingredients": ["tomato", "cucumber", "onion", "parsley", "lemon juice", "olive oil"],
+      "directions": "Chop all vegetables finely. Toss with chopped parsley, lemon juice, and olive oil. Season with salt and serve fresh."
+    }
+  },
+  {
+    "id": 61,
+    "category": "Main Course",
+    "name": "Chicken Kabsa",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 700,
+      "ingredients": ["chicken", "rice", "tomato paste", "spices", "onion"],
+      "directions": "Sauté onions with spices until fragrant. Add chicken pieces and brown. Stir in tomato paste and water, bring to boil. Add rice on top, cover, and cook on low heat until rice is tender and chicken is cooked through. Fluff rice before serving."
+    }
+  },
+  {
+    "id": 62,
+    "category": "Dessert",
+    "name": "Ghraybeh",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 300,
+      "ingredients": ["butter", "flour", "powdered sugar", "pistachios"],
+      "directions": "Mix butter with powdered sugar until creamy. Add flour gradually to form dough. Shape into small rounds, place pistachio in center, and bake at 350°F (175°C) until bottoms are lightly golden."
+    }
+  },
+  {
+    "id": 63,
+    "category": "Soup",
+    "name": "Lentil Soup",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 280,
+      "ingredients": ["red lentils", "carrot", "onion", "garlic", "cumin"],
+      "directions": "Sauté onions, garlic, and carrots until soft. Add lentils and water, bring to boil. Simmer until lentils are soft. Blend soup for a creamy texture or serve chunky. Season with cumin and salt."
+    }
+  },
+  {
+    "id": 64,
+    "category": "Salad",
+    "name": "Eggplant Salad",
+    "details": {
+      "prepTimeMinutes": 25,
+      "calories": 220,
+      "ingredients": ["eggplant", "tomato", "onion", "garlic", "olive oil"],
+      "directions": "Roast eggplant until skin chars and flesh softens. Peel and chop. Mix with chopped tomato, onion, minced garlic, and olive oil. Chill before serving."
+    }
+  },
+  {
+    "id": 65,
+    "category": "Snack",
+    "name": "Kofta",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 500,
+      "ingredients": ["ground beef", "onion", "parsley", "spices"],
+      "directions": "Mix ground beef with finely chopped onion, parsley, and spices. Shape into small logs or balls. Grill or pan-fry until cooked through. Serve with tahini sauce or yogurt."
+    }
+  },
+  {
+    "id": 66,
+    "category": "Main Course",
+    "name": "Shrimp Sayadiyah",
+    "details": {
+      "prepTimeMinutes": 55,
+      "calories": 620,
+      "ingredients": ["shrimp", "rice", "onion", "spices", "tomato"],
+      "directions": "Caramelize onions and spices in oil. Add chopped tomatoes and cook down. Add shrimp and cook until pink. Layer rice on top, cover and cook until rice is tender. Serve hot."
+    }
+  },
+  {
+    "id": 67,
+    "category": "Dessert",
+    "name": "Ma'amoul",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 450,
+      "ingredients": ["semolina", "dates", "nuts", "butter", "sugar"],
+      "directions": "Prepare dough with semolina, butter, and sugar. Prepare filling with dates and/or nuts. Shape dough around filling and press with special molds. Bake until golden and dust with powdered sugar."
+    }
+  },
+  {
+    "id": 68,
+    "category": "Breakfast",
+    "name": "Shakshuka",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 350,
+      "ingredients": ["eggs", "tomatoes", "onion", "bell pepper", "spices"],
+      "directions": "Sauté onions and bell peppers until soft. Add chopped tomatoes and spices, simmer to thicken sauce. Crack eggs over sauce, cover and cook until eggs are done to your liking. Serve with bread."
+    }
+  },
+  {
+    "id": 69,
+    "category": "Salad",
+    "name": "Beetroot Salad",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 180,
+      "ingredients": ["beetroot", "yogurt", "garlic", "lemon juice", "mint"],
+      "directions": "Boil or roast beetroot until tender. Peel and dice. Mix with yogurt, minced garlic, lemon juice, and chopped mint. Chill before serving."
+    }
+  },
+  {
+    "id": 70,
+    "category": "Snack",
+    "name": "Khubz Arabi (Arabic Bread)",
+    "details": {
+      "prepTimeMinutes": 180,
+      "calories": 250,
+      "ingredients": ["flour", "yeast", "salt", "water"],
+      "directions": "Mix flour, yeast, salt, and water to form a dough. Let rise until doubled. Divide into balls, roll thin, and bake in a hot oven or on a skillet until puffed and golden."
+    }
+  },
+  {
+    "id": 71,
+    "category": "Main Course",
+    "name": "Bamia (Okra Stew)",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 500,
+      "ingredients": ["okra", "tomatoes", "onion", "garlic", "beef broth"],
+      "directions": "Sauté onions and garlic, add chopped tomatoes and cook down. Add okra and beef broth, simmer until okra is tender and stew thickens. Season with salt and pepper."
+    }
+  },
+  {
+    "id": 72,
+    "category": "Dessert",
+    "name": "Atayef Asafiri",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 550,
+      "ingredients": ["flour", "yeast", "water", "cream", "nuts", "sugar syrup"],
+      "directions": "Prepare batter and cook small pancakes on one side. Fill with cream and nuts, fold without sealing completely. Drizzle with sugar syrup before serving."
+    }
+  },
+  {
+    "id": 73,
+    "category": "Appetizer",
+    "name": "Baba Ganoush",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 300,
+      "ingredients": ["eggplant", "tahini", "lemon juice", "garlic", "olive oil"],
+      "directions": "Roast eggplant until soft, peel, and mash. Mix with tahini, lemon juice, minced garlic, and olive oil. Serve chilled with pita bread."
+    }
+  },
+  {
+    "id": 74,
+    "category": "Soup",
+    "name": "Tomato Lentil Soup",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 320,
+      "ingredients": ["red lentils", "tomato", "onion", "garlic", "cumin"],
+      "directions": "Sauté onions and garlic. Add chopped tomatoes and cook until soft. Add lentils and water, simmer until lentils are tender. Blend if desired and season with cumin."
+    }
+  },
+  {
+    "id": 75,
+    "category": "Snack",
+    "name": "Falafel",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 400,
+      "ingredients": ["chickpeas", "onion", "garlic", "parsley", "spices"],
+      "directions": "Soak chickpeas overnight, then grind with onions, garlic, parsley, and spices. Form into balls or patties and deep fry until golden and crispy. Serve hot with tahini sauce."
+    }
+  },
+  {
+    "id": 76,
+    "category": "Main Course",
+    "name": "Makloubeh",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 750,
+      "ingredients": ["chicken", "rice", "eggplant", "cauliflower", "spices"],
+      "directions": "Fry vegetables until golden. Layer chicken, fried vegetables, and rice in a pot. Add broth and cook covered on low heat until rice is cooked and flavors meld. Invert onto a platter before serving."
+    }
+  },
+  {
+    "id": 77,
+    "category": "Dessert",
+    "name": "Ashta with Honey",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 400,
+      "ingredients": ["milk", "cornstarch", "rose water", "honey", "pistachios"],
+      "directions": "Cook milk with cornstarch and rose water until thickened. Chill, then serve drizzled with honey and topped with chopped pistachios."
+    }
+  },
+  {
+    "id": 78,
+    "category": "Breakfast",
+    "name": "Fatteh",
+    "details": {
+      "prepTimeMinutes": 30,
+      "calories": 450,
+      "ingredients": ["pita bread", "yogurt", "chickpeas", "pine nuts", "garlic"],
+      "directions": "Toast pita bread pieces. Layer with cooked chickpeas and garlic yogurt sauce. Top with toasted pine nuts and a drizzle of olive oil. Serve warm."
+    }
+  },
+  {
+    "id": 79,
+    "category": "Salad",
+    "name": "Cucumber Yogurt Salad",
+    "details": {
+      "prepTimeMinutes": 10,
+      "calories": 150,
+      "ingredients": ["cucumber", "yogurt", "garlic", "dill", "lemon juice"],
+      "directions": "Grate or finely chop cucumber. Mix with yogurt, minced garlic, chopped dill, and lemon juice. Chill before serving."
+    }
+  },
+  {
+    "id": 80,
+    "category": "Snack",
+    "name": "Sambousek",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 400,
+      "ingredients": ["flour", "ground meat", "onion", "spices", "oil"],
+      "directions": "Prepare dough with flour and water. Cook ground meat with onions and spices for filling. Roll dough thin, fill with meat mixture, fold and seal edges. Deep fry until golden."
+    }
+  },
+  {
+    "id": 81,
+    "category": "Main Course",
+    "name": "Sayadieh Fish and Rice",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 680,
+      "ingredients": ["white fish", "rice", "onion", "spices", "tomato"],
+      "directions": "Fry onions with spices until caramelized. Add tomatoes and cook down. Add fish and cook through. Layer rice on top, cover and cook until rice is tender. Serve fish on top of rice."
+    }
+  },
+  {
+    "id": 82,
+    "category": "Dessert",
+    "name": "Basbousa",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 520,
+      "ingredients": ["semolina", "sugar", "yogurt", "butter", "syrup"],
+      "directions": "Mix semolina, sugar, yogurt, and melted butter into a batter. Pour into a baking dish and bake until golden. Pour sugar syrup over warm cake and let absorb before serving."
+    }
+  },
+  {
+    "id": 83,
+    "category": "Soup",
+    "name": "Chicken Soup with Vermicelli",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 350,
+      "ingredients": ["chicken", "vermicelli", "carrot", "celery", "onion"],
+      "directions": "Boil chicken with vegetables to make broth. Remove chicken, shred meat. Add vermicelli to broth and cook until tender. Return shredded chicken to soup, season and serve hot."
+    }
+  },
+  {
+    "id": 84,
+    "category": "Salad",
+    "name": "Carrot and Raisin Salad",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 200,
+      "ingredients": ["carrot", "raisins", "lemon juice", "olive oil", "parsley"],
+      "directions": "Grate carrots and mix with raisins. Toss with lemon juice, olive oil, and chopped parsley. Chill before serving."
+    }
+  },
+  {
+    "id": 85,
+    "category": "Snack",
+    "name": "Foul Mudammas",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 350,
+      "ingredients": ["fava beans", "lemon juice", "garlic", "olive oil", "cumin"],
+      "directions": "Soak and cook fava beans until tender. Mash lightly and mix with lemon juice, minced garlic, olive oil, and cumin. Serve warm with bread."
+    }
+  },
+  {
+    "id": 86,
+    "category": "Main Course",
+    "name": "Shish Tawook",
+    "details": {
+      "prepTimeMinutes": 75,
+      "calories": 600,
+      "ingredients": ["chicken breast", "yogurt", "lemon juice", "garlic", "spices"],
+      "directions": "Marinate chicken breast pieces in yogurt, lemon juice, garlic, and spices for at least 2 hours. Thread onto skewers and grill until cooked and slightly charred. Serve with garlic sauce."
+    }
+  },
+  {
+    "id": 87,
+    "category": "Dessert",
+    "name": "Kanafeh",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 700,
+      "ingredients": ["kataifi dough", "cheese", "butter", "sugar syrup", "pistachios"],
+      "directions": "Layer kataifi dough with melted butter and cheese in a baking dish. Bake until golden and cheese melts. Pour sugar syrup over warm kanafeh and garnish with chopped pistachios before serving."
+    }
+  },
+  {
+    "id": 88,
+    "category": "Breakfast",
+    "name": "Manakish Zaatar",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 400,
+      "ingredients": ["flour", "yeast", "zaatar", "olive oil", "water"],
+      "directions": "Prepare dough with flour, yeast, and water. Roll into rounds, brush with olive oil and sprinkle zaatar on top. Bake until golden and crisp."
+    }
+  },
+  {
+    "id": 89,
+    "category": "Salad",
+    "name": "Fattoush",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 200,
+      "ingredients": ["lettuce", "tomato", "cucumber", "radish", "pita chips", "sumac", "lemon juice", "olive oil"],
+      "directions": "Chop all vegetables and toss with toasted pita chips. Dress with lemon juice, olive oil, and sumac. Toss well and serve immediately."
+    }
+  },
+  {
+    "id": 90,
+    "category": "Snack",
+    "name": "Moutabal",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 300,
+      "ingredients": ["eggplant", "tahini", "lemon juice", "garlic", "olive oil"],
+      "directions": "Roast eggplant until soft, peel, and mash. Mix with tahini, lemon juice, minced garlic, and olive oil. Chill and serve with pita bread."
+    }
+  },
+  {
+    "id": 91,
+    "category": "Main Course",
+    "name": "Lamb Tagine",
+    "details": {
+      "prepTimeMinutes": 120,
+      "calories": 800,
+      "ingredients": ["lamb", "prunes", "almonds", "spices", "onion"],
+      "directions": "Brown lamb pieces with onions and spices. Add prunes and a bit of water, cover and simmer until lamb is tender and sauce thickens. Garnish with toasted almonds before serving."
+    }
+  },
+  {
+    "id": 92,
+    "category": "Dessert",
+    "name": "Halva",
+    "details": {
+      "prepTimeMinutes": 45,
+      "calories": 550,
+      "ingredients": ["tahini", "sugar", "water", "pistachios"],
+      "directions": "Heat sugar and water to make syrup. Slowly mix with tahini until thickened. Pour into mold and let set. Sprinkle with chopped pistachios before serving."
+    }
+  },
+  {
+    "id": 93,
+    "category": "Soup",
+    "name": "Chicken Lentil Soup",
+    "details": {
+      "prepTimeMinutes": 50,
+      "calories": 320,
+      "ingredients": ["chicken", "lentils", "carrot", "onion", "garlic"],
+      "directions": "Cook chicken with vegetables to make broth. Add lentils and simmer until soft. Remove chicken, shred meat and return to soup. Season and serve hot."
+    }
+  },
+  {
+    "id": 94,
+    "category": "Salad",
+    "name": "Green Bean Salad",
+    "details": {
+      "prepTimeMinutes": 20,
+      "calories": 180,
+      "ingredients": ["green beans", "tomato", "onion", "olive oil", "lemon juice"],
+      "directions": "Boil green beans until tender-crisp. Drain and mix with chopped tomatoes, onions, olive oil, and lemon juice. Chill before serving."
+    }
+  },
+  {
+    "id": 95,
+    "category": "Snack",
+    "name": "Sfeeha (Meat Pies)",
+    "details": {
+      "prepTimeMinutes": 90,
+      "calories": 450,
+      "ingredients": ["flour", "ground beef", "onion", "spices", "yogurt"],
+      "directions": "Prepare dough with flour and yogurt. Cook ground beef with onions and spices. Roll dough thin, top with meat mixture, fold edges and bake until golden brown."
+    }
+  },
+  {
+    "id": 96,
+    "category": "Main Course",
+    "name": "Mujadara",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 500,
+      "ingredients": ["lentils", "rice", "onion", "olive oil", "spices"],
+      "directions": "Cook lentils and rice together with spices. Fry onions until caramelized and mix half into the lentil-rice mixture. Top with remaining onions before serving."
+    }
+  },
+  {
+    "id": 97,
+    "category": "Dessert",
+    "name": "Om Ali",
+    "details": {
+      "prepTimeMinutes": 60,
+      "calories": 600,
+      "ingredients": ["phyllo dough", "milk", "nuts", "sugar", "cream"],
+      "directions": "Layer torn phyllo dough with nuts and sugar in a baking dish. Pour sweetened milk and cream over layers. Bake until golden and bubbly. Serve warm."
+    }
+  },
+  {
+    "id": 98,
+    "category": "Breakfast",
+    "name": "Labneh with Olive Oil",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 250,
+      "ingredients": ["labneh", "olive oil", "zaatar", "bread"],
+      "directions": "Spread labneh on a plate, drizzle with olive oil and sprinkle zaatar on top. Serve with fresh bread."
+    }
+  },
+  {
+    "id": 99,
+    "category": "Salad",
+    "name": "Chickpea Salad",
+    "details": {
+      "prepTimeMinutes": 15,
+      "calories": 300,
+      "ingredients": ["chickpeas", "tomatoes", "cucumber", "onion", "lemon juice", "olive oil"],
+      "directions": "Mix cooked chickpeas with chopped tomatoes, cucumber, and onion. Dress with lemon juice and olive oil. Toss well and serve."
+    }
+  },
+  {
+    "id": 100,
+    "category": "Snack",
+    "name": "Falafel Wrap",
+    "details": {
+      "prepTimeMinutes": 40,
+      "calories": 450,
+      "ingredients": ["falafel", "pita bread", "lettuce", "tomato", "tahini sauce"],
+      "directions": "Prepare falafel and warm pita bread. Place falafel inside pita with lettuce, tomato slices, and drizzle with tahini sauce. Wrap and serve immediately."
+    }
+  }
+]
