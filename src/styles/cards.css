@@ -20,14 +20,22 @@ main {
   border-color: blue;
 }
 
-.favorite {
-  font-size: 28px;
-}
-
-.favorite > p:hover {
-  cursor: pointer;
-}
-
 .name {
   font-size: 22px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 25
+}
+
+.material-symbols-outlined:active {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 25
 }
