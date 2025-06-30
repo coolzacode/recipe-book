@@ -32,7 +32,8 @@ main {
   'opsz' 25
 }
 
-.material-symbols-outlined:active {
+.material-symbols-outlined.filled {
+  color: red;
   font-variation-settings:
   'FILL' 1,
   'wght' 300,
