@@ -3,6 +3,8 @@ import Recipes from '../recipes.json'
 function Favorites({ favorites }) {
   const favoriteRecipes = Recipes.filter(recipe => favorites.includes(recipe.id));
 
+  // import setFavorites and update unfavorite logic
+  
   return (
     <>
       {favoriteRecipes.map(recipe => (
