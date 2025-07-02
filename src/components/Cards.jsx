@@ -1,17 +1,13 @@
 import { useRef } from 'react'
 import '../styles/cards.css'
 
-function Cards({ recipe, index }) {
+function Cards({ recipe, index, favorites, setFavorites }) {
   const iconRefs = useRef([]);
-  let favorites = [];
 
   function handleClick(id, index) {
-    if(favorites.includes(id)){
-      favorites = favorites.filter(favorite => favorite !== id);
-    } else {
-      favorites.unshift(id);
-    }
-    console.log(favorites);
+    const isFavorite = favorites.includes(id);
+    const newFavorites = (isFavorite) ? (favorites.filter(fav => fav !== id)) : ([id, ...favorites]);
+    setFavorites(newFavorites);
     const el = iconRefs.current[index];
     if(el) {
       el.classList.toggle('filled');

@@ -1,6 +1,22 @@
-function Favorites() {
+import Recipes from '../recipes.json'
+
+function Favorites({ favorites }) {
+  const favoriteRecipes = Recipes.filter(recipe => favorites.includes(recipe.id));
+
   return (
-    <h1>Fav</h1>
+    <>
+      {favoriteRecipes.map(recipe => (
+        <div className="card">
+          <div className="favorite">
+            <span className="material-symbols-outlined filled">favorite</span>
+          </div>
+          <div className="info">
+            <p className="category">{recipe.category}</p>
+            <p className="name">{recipe.name}</p>
+          </div>
+        </div>
+      ))}
+    </>
   )
 }
 
