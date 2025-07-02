@@ -1,4 +1,5 @@
 import Recipes from '../recipes.json'
+import Cards from '../components/Cards';
 
 function Favorites({ favorites }) {
   const favoriteRecipes = Recipes.filter(recipe => favorites.includes(recipe.id));
@@ -8,15 +9,7 @@ function Favorites({ favorites }) {
   return (
     <>
       {favoriteRecipes.map(recipe => (
-        <div className="card">
-          <div className="favorite">
-            <span className="material-symbols-outlined filled">favorite</span>
-          </div>
-          <div className="info">
-            <p className="category">{recipe.category}</p>
-            <p className="name">{recipe.name}</p>
-          </div>
-        </div>
+        <Cards recipe={recipe} />
       ))}
     </>
   )
