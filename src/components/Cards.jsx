@@ -1,8 +1,7 @@
 import { useRef } from 'react'
 import '../styles/cards.css'
-import Recipes from '../recipes.json'
 
-function Cards() {
+function Cards({ recipe, index }) {
   const iconRefs = useRef([]);
   let favorites = [];
 
@@ -20,19 +19,15 @@ function Cards() {
   }
 
   return (
-    <main>
-      {Recipes && Recipes.map( (recipe, index) => (
-        <div key={recipe.id} className="card">
-          <div className="favorite">
-            <span ref={el => (iconRefs.current[index] = el)} onClick={() => handleClick(recipe.id, index)} className={"material-symbols-outlined"}>favorite</span>
-          </div>
-          <div className="info">
-            <p className="category">{recipe.category}</p>
-            <p className="name">{recipe.name}</p>
-          </div>
-        </div>
-      ))}
-    </main>
+    <div className="card">
+      <div className="favorite">
+        <span ref={el => (iconRefs.current[index] = el)} onClick={() => handleClick(recipe.id, index)} className={"material-symbols-outlined"}>favorite</span>
+      </div>
+      <div className="info">
+        <p className="category">{recipe.category}</p>
+        <p className="name">{recipe.name}</p>
+      </div>
+    </div>
   )
 }
 
