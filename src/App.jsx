@@ -16,7 +16,7 @@ function App() {
             <Home favorites={favorites} setFavorites={setFavorites} />} 
           />
           <Route path="/favorites" element={
-            <Favorites favorites={favorites} setFavorite={setFavorites} />} 
+            <Favorites favorites={favorites} setFavorites={setFavorites} />} 
           />
         </Routes>
       </div>
