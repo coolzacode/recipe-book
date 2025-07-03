@@ -3,9 +3,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
+  background-color: #283618;
 }
 
 .link {
   text-decoration: none;
+  color: #fefae0;
+}
+
+.link:hover, .link:focus {
+  text-decoration: none;
+  color: #dda15e;
 }
