@@ -1,0 +1,14 @@
+.fav-main {
+  display: grid;
+  grid-template-columns: .5fr;
+  place-content: center;
+}
+
+.fav-none {
+  font-size: 48px;
+  font-weight: 800;
+  color: #780000;
+  background-color: #dda15e;
+  padding: 20px;
+  border-radius: 20px;
+}
