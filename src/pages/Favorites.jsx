@@ -6,9 +6,14 @@ function Favorites({ favorites, setFavorites }) {
 
   return (
     <>
-      {favoriteRecipes.map((recipe) => (
+      {favoriteRecipes.length > 0 ? ( 
+        favoriteRecipes.map((recipe) => (
         <Cards recipe={recipe} favorites={favorites} setFavorites={setFavorites} key={recipe.id} />
-      ))}
+      ))) : (
+        <div>
+        No favorites!
+      </div>
+      )}
     </>
   )
 }
