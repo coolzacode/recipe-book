@@ -26,18 +26,22 @@ function Cards({ recipe, favorites, setFavorites }) {
       </div>
     </div>
     {visible &&
-    <div className="pop-up" onClick={() => setVisible(false)}>
-      <div className="info">
-        <p className="category">{recipe.category}</p>
-        <p className="name">{recipe.name}</p>
+    <>
+    <section onClick={() => setVisible(false)}>
+      <div className="pop-up">
+        <div className="info">
+          <p className="category">{recipe.category}</p>
+          <p className="name">{recipe.name}</p>
+        </div>
+        <div className="details">
+          <p className="prep-time-minutes">Time: {recipe.details.prepTimeMinutes} min</p>
+          <p className="calories">Calories: {recipe.details.calories}</p>
+          <p className="ingredients"><strong>Ingredients:</strong> {recipe.details.ingredients.join(", ")}</p>
+          <p className="directions"><strong>Directions:</strong> {recipe.details.directions}</p>
+        </div>
       </div>
-      <div className="details">
-        <p className="prep-time-minutes">{recipe.details.prepTimeMinutes}</p>
-        <p className="calories">{recipe.details.calories}</p>
-        <p className="ingredients">{recipe.details.ingredients}</p>
-        <p className="directions">{recipe.details.directions}</p>
-      </div>
-    </div>
+    </section>
+    </>
     }
     </>
   )
