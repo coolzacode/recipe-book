@@ -27,8 +27,9 @@ function Cards({ recipe, favorites, setFavorites }) {
     </div>
     {visible &&
     <>
-    <section onClick={() => setVisible(false)}>
+    <section>
       <div className="pop-up">
+        <span onClick={() => setVisible(false)}><strong>X</strong></span>
         <div className="info">
           <p className="category">{recipe.category}</p>
           <p className="name">{recipe.name}</p>
