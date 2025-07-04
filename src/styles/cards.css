@@ -27,6 +27,10 @@ main {
   font-size: 22px;
 }
 
+.info {
+  width: 100%;
+}
+
 .material-symbols-outlined {
   color: #780000;
   font-variation-settings:

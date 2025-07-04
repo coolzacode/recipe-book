@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import '../styles/cards.css'
 
 function Cards({ recipe, favorites, setFavorites }) {
+  const [visible, setVisible] = useState(false);
 
   function handleClick(id) {
     const isFavorite = favorites.includes(id);
@@ -9,6 +11,7 @@ function Cards({ recipe, favorites, setFavorites }) {
   }
 
   return (
+    <>
     <div className="card">
       <div className="favorite">
         <span 
@@ -17,11 +20,26 @@ function Cards({ recipe, favorites, setFavorites }) {
           favorite
         </span>
       </div>
-      <div className="info">
+      <div className="info" onClick={() => setVisible(true)}>
         <p className="category">{recipe.category}</p>
         <p className="name">{recipe.name}</p>
       </div>
     </div>
+    {visible &&
+    <div className="pop-up" onClick={() => setVisible(false)}>
+      <div className="info">
+        <p className="category">{recipe.category}</p>
+        <p className="name">{recipe.name}</p>
+      </div>
+      <div className="details">
+        <p className="prep-time-minutes">{recipe.details.prepTimeMinutes}</p>
+        <p className="calories">{recipe.details.calories}</p>
+        <p className="ingredients">{recipe.details.ingredients}</p>
+        <p className="directions">{recipe.details.directions}</p>
+      </div>
+    </div>
+    }
+    </>
   )
 }
 
